@@ -1,0 +1,36 @@
+Introduction
+============
+
+python-krbV allows python programs to use Kerberos 5 authentication and
+security. It is designed to be a thin wrapper around the krb5 C api. Familiarity
+with the C api will be of great help when using this module. 
+
+Installation
+============
+
+As you know, you can use easy_install or pip install python-krbV from PyPI.
+Since python-krbV is a C Python extension module, of course gcc compiler should
+be installed before anything goes.
+
+::
+
+    $ sudo easy_install python-krbV
+
+If you are running RHEL (Red Hat Enterprise Linux), Fedora, CentOS, or any
+other RHEL-based Linux distributions, you can install by yum.
+
+::
+
+    $ sudo yum install python-krbV
+
+Or, if you would like do everything manually, download the tarball, extract,
+and build in your ways.
+
+::
+
+    $ ./autogen.sh
+    $ make
+    $ sudo make install
+
+Copyright (C) 2001-2006 Red Hat, Inc.
+Licensed under the LGPL.

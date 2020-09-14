@@ -1,0 +1,3 @@
+include *.h *.c *.py
+include acinclude.m4 autogen.sh configure.in gendefines.awk Makefile.am python-krbV.spec
+include AUTHORS COPYING NEWS README ChangeLog 

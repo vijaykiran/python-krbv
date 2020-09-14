@@ -1,0 +1,11 @@
+1.0.90 (2012-03-22)
+===================
+
+Be a Python extension module and can be installed by easy_install from PyPI
+Reformat project's meta files in reStructuredText to provide more readable
+information in the PyPI project web page
+
+1.0.11
+======
+
+Pay attention to python2.3
